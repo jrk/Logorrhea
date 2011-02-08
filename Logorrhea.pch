@@ -1,0 +1,13 @@
+/*
+ *  Logorrhea.pch
+ *  Logorrhea
+ *
+ *  Created by Ladd Van Tol on 4/9/05.
+ *  Copyright 2005 Spiny. All rights reserved.
+ *
+ */
+
+#include <Cocoa/Cocoa.h>
+
+#define SUPPORT_UTF8 1
+

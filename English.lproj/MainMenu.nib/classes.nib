@@ -1,0 +1,36 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                browserClick = id; 
+                closeWindow = id; 
+                convertChats = id; 
+                deleteChat = id; 
+                exportChats = id; 
+                feedbackLink = id; 
+                revealInFinder = id; 
+                search = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                browser = NSBrowser; 
+                messageContents = NSTextView; 
+                messageScrollView = NSScrollView; 
+                openInIChat = NSButton; 
+                progress = NSProgressIndicator; 
+                progressText = NSTextField; 
+                search = NSButton; 
+                searchField = NSTextField; 
+                splitView = OASplitView; 
+                tabView = NSTabView; 
+                tableView = NSTableView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = OASplitView; LANGUAGE = ObjC; SUPERCLASS = NSSplitView; }
+    ); 
+    IBVersion = 1; 
+}

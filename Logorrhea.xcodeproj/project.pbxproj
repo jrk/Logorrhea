@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		864BC848080887B100DC029E /* Logorrhea.pch in Headers */ = {isa = PBXBuildFile; fileRef = 864BC847080887B100DC029E /* Logorrhea.pch */; };
+		86B6235F04BBF2F000A80006 /* AppController.h in Headers */ = {isa = PBXBuildFile; fileRef = F526701603ABFEBB01A80002 /* AppController.h */; };
+		86B6236004BBF2F000A80006 /* LogReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F526701E03ABFEE001A80002 /* LogReader.h */; };
+		86B6236104BBF2F000A80006 /* Buddy.h in Headers */ = {isa = PBXBuildFile; fileRef = F526703C03AC183501A80002 /* Buddy.h */; };
+		86B6236204BBF2F000A80006 /* Chat.h in Headers */ = {isa = PBXBuildFile; fileRef = F526704003AC3A9A01A80002 /* Chat.h */; };
+		86B6236304BBF2F000A80006 /* MyTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E5745003AE63BF01A80002 /* MyTableView.h */; };
+		86B6236404BBF2F000A80006 /* InstantMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 860A324F043507DE00A80102 /* InstantMessage.h */; };
+		86B6236504BBF2F000A80006 /* Presentity.h in Headers */ = {isa = PBXBuildFile; fileRef = 860A32530435082700A80102 /* Presentity.h */; };
+		86B6236604BBF2F000A80006 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 869D5A030435670A00A80102 /* Person.h */; };
+		86B6236704BBF2F000A80006 /* FileAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 869D5A73043629CD00A80102 /* FileAttributes.h */; };
+		86B6236804BBF2F000A80006 /* AddressBookUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 863F9F7E043670BB00A80102 /* AddressBookUtils.h */; };
+		86B6236904BBF2F000A80006 /* OASplitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B2CFBB04367CAA00A80102 /* OASplitView.h */; };
+		86B6236B04BBF2F000A80006 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		86B6236C04BBF2F000A80006 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		86B6236D04BBF2F000A80006 /* Logorrhea icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5E5746D03AE7E4D01A80002 /* Logorrhea icon.icns */; };
+		86B6236F04BBF2F000A80006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		86B6237004BBF2F000A80006 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = F526701703ABFEBB01A80002 /* AppController.m */; };
+		86B6237104BBF2F000A80006 /* LogReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F526701F03ABFEE001A80002 /* LogReader.m */; };
+		86B6237204BBF2F000A80006 /* Buddy.m in Sources */ = {isa = PBXBuildFile; fileRef = F526703D03AC183501A80002 /* Buddy.m */; };
+		86B6237304BBF2F000A80006 /* Chat.mm in Sources */ = {isa = PBXBuildFile; fileRef = F526704103AC3A9A01A80002 /* Chat.mm */; };
+		86B6237404BBF2F000A80006 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E5745103AE63BF01A80002 /* MyTableView.m */; };
+		86B6237504BBF2F000A80006 /* InstantMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 860A3250043507DE00A80102 /* InstantMessage.m */; };
+		86B6237604BBF2F000A80006 /* Presentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 860A32540435082700A80102 /* Presentity.m */; };
+		86B6237704BBF2F000A80006 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 869D5A010435670600A80102 /* Person.m */; };
+		86B6237804BBF2F000A80006 /* FileAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 869D5A74043629CD00A80102 /* FileAttributes.m */; };
+		86B6237904BBF2F000A80006 /* AddressBookUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 863F9F7F043670BB00A80102 /* AddressBookUtils.m */; };
+		86B6237A04BBF2F000A80006 /* OASplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B2CFBC04367CAA00A80102 /* OASplitView.m */; };
+		86B6237C04BBF2F000A80006 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		86B6237D04BBF2F000A80006 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869D5A0D0436288E00A80102 /* CoreServices.framework */; };
+		86B6237E04BBF2F000A80006 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863F9F5404363AD900A80102 /* AddressBook.framework */; };
+		86D1FA650808789B00E279A9 /* AGRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D1FA5A0808789B00E279A9 /* AGRegex.h */; };
+		86D1FA660808789B00E279A9 /* AGRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D1FA5B0808789B00E279A9 /* AGRegex.m */; };
+		86D1FA670808789B00E279A9 /* chartables.c in Sources */ = {isa = PBXBuildFile; fileRef = 86D1FA5C0808789B00E279A9 /* chartables.c */; };
+		86D1FA680808789B00E279A9 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D1FA5D0808789B00E279A9 /* config.h */; };
+		86D1FA690808789B00E279A9 /* get.c in Sources */ = {isa = PBXBuildFile; fileRef = 86D1FA5E0808789B00E279A9 /* get.c */; };
+		86D1FA6A0808789B00E279A9 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D1FA5F0808789B00E279A9 /* internal.h */; };
+		86D1FA6B0808789B00E279A9 /* maketables.c in Sources */ = {isa = PBXBuildFile; fileRef = 86D1FA600808789B00E279A9 /* maketables.c */; };
+		86D1FA6C0808789B00E279A9 /* pcre.c in Sources */ = {isa = PBXBuildFile; fileRef = 86D1FA610808789B00E279A9 /* pcre.c */; };
+		86D1FA6D0808789B00E279A9 /* pcre.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D1FA620808789B00E279A9 /* pcre.h */; };
+		86D1FA6F0808789B00E279A9 /* study.c in Sources */ = {isa = PBXBuildFile; fileRef = 86D1FA640808789B00E279A9 /* study.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4A9504CCFFE6A4B311CA0CBA /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Logorrhea.pch;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		4A9504CDFFE6A4B311CA0CBA /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PFE_FILE_C_DIALECTS = "objective-c++";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Logorrhea.pch;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				PREBINDING = YES;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		860A324F043507DE00A80102 /* InstantMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstantMessage.h; sourceTree = "<group>"; };
+		860A3250043507DE00A80102 /* InstantMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstantMessage.m; sourceTree = "<group>"; };
+		860A32530435082700A80102 /* Presentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presentity.h; sourceTree = "<group>"; };
+		860A32540435082700A80102 /* Presentity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presentity.m; sourceTree = "<group>"; };
+		863F9F5404363AD900A80102 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
+		863F9F7E043670BB00A80102 /* AddressBookUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookUtils.h; sourceTree = "<group>"; };
+		863F9F7F043670BB00A80102 /* AddressBookUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookUtils.m; sourceTree = "<group>"; };
+		864BC847080887B100DC029E /* Logorrhea.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logorrhea.pch; sourceTree = "<group>"; };
+		869D5A010435670600A80102 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		869D5A030435670A00A80102 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		869D5A0D0436288E00A80102 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		869D5A73043629CD00A80102 /* FileAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileAttributes.h; sourceTree = "<group>"; };
+		869D5A74043629CD00A80102 /* FileAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileAttributes.m; sourceTree = "<group>"; };
+		86B2CFBB04367CAA00A80102 /* OASplitView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OASplitView.h; sourceTree = "<group>"; };
+		86B2CFBC04367CAA00A80102 /* OASplitView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OASplitView.m; sourceTree = "<group>"; };
+		86B6238004BBF2F000A80006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B6238104BBF2F000A80006 /* Logorrhea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Logorrhea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D1FA5A0808789B00E279A9 /* AGRegex.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AGRegex.h; sourceTree = "<group>"; };
+		86D1FA5B0808789B00E279A9 /* AGRegex.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AGRegex.m; sourceTree = "<group>"; };
+		86D1FA5C0808789B00E279A9 /* chartables.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = chartables.c; sourceTree = "<group>"; };
+		86D1FA5D0808789B00E279A9 /* config.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		86D1FA5E0808789B00E279A9 /* get.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = get.c; sourceTree = "<group>"; };
+		86D1FA5F0808789B00E279A9 /* internal.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		86D1FA600808789B00E279A9 /* maketables.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = maketables.c; sourceTree = "<group>"; };
+		86D1FA610808789B00E279A9 /* pcre.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = pcre.c; sourceTree = "<group>"; };
+		86D1FA620808789B00E279A9 /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = pcre.h; sourceTree = "<group>"; };
+		86D1FA640808789B00E279A9 /* study.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = study.c; sourceTree = "<group>"; };
+		F526701603ABFEBB01A80002 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		F526701703ABFEBB01A80002 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		F526701E03ABFEE001A80002 /* LogReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LogReader.h; sourceTree = "<group>"; };
+		F526701F03ABFEE001A80002 /* LogReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LogReader.m; sourceTree = "<group>"; };
+		F526703C03AC183501A80002 /* Buddy.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Buddy.h; sourceTree = "<group>"; };
+		F526703D03AC183501A80002 /* Buddy.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Buddy.m; sourceTree = "<group>"; };
+		F526704003AC3A9A01A80002 /* Chat.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Chat.h; sourceTree = "<group>"; };
+		F526704103AC3A9A01A80002 /* Chat.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = Chat.mm; sourceTree = "<group>"; };
+		F5E5745003AE63BF01A80002 /* MyTableView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
+		F5E5745103AE63BF01A80002 /* MyTableView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
+		F5E5746D03AE7E4D01A80002 /* Logorrhea icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Logorrhea icon.icns"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86B6237B04BBF2F000A80006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B6237C04BBF2F000A80006 /* Cocoa.framework in Frameworks */,
+				86B6237D04BBF2F000A80006 /* CoreServices.framework in Frameworks */,
+				86B6237E04BBF2F000A80006 /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				860A324E0435077800A80102 /* iChat Data Classes */,
+				86B2CFBB04367CAA00A80102 /* OASplitView.h */,
+				86B2CFBC04367CAA00A80102 /* OASplitView.m */,
+				F526701603ABFEBB01A80002 /* AppController.h */,
+				F526701703ABFEBB01A80002 /* AppController.m */,
+				F526701E03ABFEE001A80002 /* LogReader.h */,
+				F526701F03ABFEE001A80002 /* LogReader.m */,
+				F526703C03AC183501A80002 /* Buddy.h */,
+				F526703D03AC183501A80002 /* Buddy.m */,
+				F526704003AC3A9A01A80002 /* Chat.h */,
+				F526704103AC3A9A01A80002 /* Chat.mm */,
+				F5E5745003AE63BF01A80002 /* MyTableView.h */,
+				F5E5745103AE63BF01A80002 /* MyTableView.m */,
+				863F9F7E043670BB00A80102 /* AddressBookUtils.h */,
+				863F9F7F043670BB00A80102 /* AddressBookUtils.m */,
+				869D5A73043629CD00A80102 /* FileAttributes.h */,
+				869D5A74043629CD00A80102 /* FileAttributes.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86B6238104BBF2F000A80006 /* Logorrhea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Logtastic */ = {
+			isa = PBXGroup;
+			children = (
+				86D1FA590808789B00E279A9 /* AGRegex */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Logtastic;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				864BC847080887B100DC029E /* Logorrhea.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86B6238004BBF2F000A80006 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				F5E5746D03AE7E4D01A80002 /* Logorrhea icon.icns */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				863F9F5404363AD900A80102 /* AddressBook.framework */,
+				869D5A0D0436288E00A80102 /* CoreServices.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		860A324E0435077800A80102 /* iChat Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				860A324F043507DE00A80102 /* InstantMessage.h */,
+				860A3250043507DE00A80102 /* InstantMessage.m */,
+				860A32530435082700A80102 /* Presentity.h */,
+				860A32540435082700A80102 /* Presentity.m */,
+				869D5A030435670A00A80102 /* Person.h */,
+				869D5A010435670600A80102 /* Person.m */,
+			);
+			name = "iChat Data Classes";
+			sourceTree = "<group>";
+		};
+		86D1FA590808789B00E279A9 /* AGRegex */ = {
+			isa = PBXGroup;
+			children = (
+				86D1FA5A0808789B00E279A9 /* AGRegex.h */,
+				86D1FA5B0808789B00E279A9 /* AGRegex.m */,
+				86D1FA5C0808789B00E279A9 /* chartables.c */,
+				86D1FA5D0808789B00E279A9 /* config.h */,
+				86D1FA5E0808789B00E279A9 /* get.c */,
+				86D1FA5F0808789B00E279A9 /* internal.h */,
+				86D1FA600808789B00E279A9 /* maketables.c */,
+				86D1FA610808789B00E279A9 /* pcre.c */,
+				86D1FA620808789B00E279A9 /* pcre.h */,
+				86D1FA640808789B00E279A9 /* study.c */,
+			);
+			path = AGRegex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		86B6235E04BBF2F000A80006 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B6235F04BBF2F000A80006 /* AppController.h in Headers */,
+				86B6236004BBF2F000A80006 /* LogReader.h in Headers */,
+				86B6236104BBF2F000A80006 /* Buddy.h in Headers */,
+				86B6236204BBF2F000A80006 /* Chat.h in Headers */,
+				86B6236304BBF2F000A80006 /* MyTableView.h in Headers */,
+				86B6236404BBF2F000A80006 /* InstantMessage.h in Headers */,
+				86B6236504BBF2F000A80006 /* Presentity.h in Headers */,
+				86B6236604BBF2F000A80006 /* Person.h in Headers */,
+				86B6236704BBF2F000A80006 /* FileAttributes.h in Headers */,
+				86B6236804BBF2F000A80006 /* AddressBookUtils.h in Headers */,
+				86B6236904BBF2F000A80006 /* OASplitView.h in Headers */,
+				86D1FA650808789B00E279A9 /* AGRegex.h in Headers */,
+				86D1FA680808789B00E279A9 /* config.h in Headers */,
+				86D1FA6A0808789B00E279A9 /* internal.h in Headers */,
+				86D1FA6D0808789B00E279A9 /* pcre.h in Headers */,
+				864BC848080887B100DC029E /* Logorrhea.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86B6235D04BBF2F000A80006 /* Logorrhea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A7AD6E09BA86EB00F9EBEF /* Build configuration list for PBXNativeTarget "Logorrhea" */;
+			buildPhases = (
+				86B6235E04BBF2F000A80006 /* Headers */,
+				86B6236A04BBF2F000A80006 /* Resources */,
+				86B6236E04BBF2F000A80006 /* Sources */,
+				86B6237B04BBF2F000A80006 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				BUILD_VARIANTS = normal;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PFE_FILE_C_DIALECTS = "objective-c++";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PREFIX_HEADER)";
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Logorrhea;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			name = Logorrhea;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Logtastic;
+			productReference = 86B6238104BBF2F000A80006 /* Logorrhea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 86A7AD7209BA86EB00F9EBEF /* Build configuration list for PBXProject "Logorrhea" */;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				SDKROOT = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			buildStyles = (
+				4A9504CCFFE6A4B311CA0CBA /* Development */,
+				4A9504CDFFE6A4B311CA0CBA /* Deployment */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Logtastic */;
+			projectDirPath = "";
+			targets = (
+				86B6235D04BBF2F000A80006 /* Logorrhea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86B6236A04BBF2F000A80006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B6236B04BBF2F000A80006 /* MainMenu.nib in Resources */,
+				86B6236C04BBF2F000A80006 /* InfoPlist.strings in Resources */,
+				86B6236D04BBF2F000A80006 /* Logorrhea icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86B6236E04BBF2F000A80006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B6236F04BBF2F000A80006 /* main.m in Sources */,
+				86B6237004BBF2F000A80006 /* AppController.m in Sources */,
+				86B6237104BBF2F000A80006 /* LogReader.m in Sources */,
+				86B6237204BBF2F000A80006 /* Buddy.m in Sources */,
+				86B6237304BBF2F000A80006 /* Chat.mm in Sources */,
+				86B6237404BBF2F000A80006 /* MyTableView.m in Sources */,
+				86B6237504BBF2F000A80006 /* InstantMessage.m in Sources */,
+				86B6237604BBF2F000A80006 /* Presentity.m in Sources */,
+				86B6237704BBF2F000A80006 /* Person.m in Sources */,
+				86B6237804BBF2F000A80006 /* FileAttributes.m in Sources */,
+				86B6237904BBF2F000A80006 /* AddressBookUtils.m in Sources */,
+				86B6237A04BBF2F000A80006 /* OASplitView.m in Sources */,
+				86D1FA660808789B00E279A9 /* AGRegex.m in Sources */,
+				86D1FA670808789B00E279A9 /* chartables.c in Sources */,
+				86D1FA690808789B00E279A9 /* get.c in Sources */,
+				86D1FA6B0808789B00E279A9 /* maketables.c in Sources */,
+				86D1FA6C0808789B00E279A9 /* pcre.c in Sources */,
+				86D1FA6F0808789B00E279A9 /* study.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86A7AD6F09BA86EB00F9EBEF /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_VARIANTS = normal;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Logorrhea.pch;
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Logorrhea;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		86A7AD7009BA86EB00F9EBEF /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				BUILD_VARIANTS = normal;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Logorrhea.pch;
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = Logorrhea;
+				SECTORDER_FLAGS = "";
+				STRIP_INSTALLED_PRODUCT = YES;
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		86A7AD7309BA86EB00F9EBEF /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		86A7AD7409BA86EB00F9EBEF /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86A7AD6E09BA86EB00F9EBEF /* Build configuration list for PBXNativeTarget "Logorrhea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A7AD6F09BA86EB00F9EBEF /* Development */,
+				86A7AD7009BA86EB00F9EBEF /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		86A7AD7209BA86EB00F9EBEF /* Build configuration list for PBXProject "Logorrhea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A7AD7309BA86EB00F9EBEF /* Development */,
+				86A7AD7409BA86EB00F9EBEF /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
